@@ -31,7 +31,7 @@ h2 {
   flex-direction: column;
 }
 
-.pokecard img {
+img {
   width: 100%;
   padding: 0;
 }
@@ -43,6 +43,26 @@ h2 {
 .pokedex-container {
   display: flex;
   gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-card {
+  background-color: #323232;
+  height: fit-content;
+  width: 200px;
+}
+
+.type-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-container {
+  display: flex;
+  gap: 10px;
   flex-wrap: wrap;
   justify-content: center;
 }

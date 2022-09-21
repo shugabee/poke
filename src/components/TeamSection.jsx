@@ -1,4 +1,5 @@
 import React from 'react'
+import TeamCard from './TeamCard'
 
 const TeamSection = ({team}) => {
   return (
@@ -6,7 +7,7 @@ const TeamSection = ({team}) => {
         <h1>My Team</h1>
         <div className="team-container">
           { team.map((p,i) => {
-            return <h4>hello</h4>
+            return <TeamCard pokemon={p}/>
           })}
         </div>
     </div>
